@@ -62,6 +62,13 @@ nav ul {
     padding: 0;
 }
 
+.nav-list a.active {
+    color: #f1c40f;
+    border-bottom: 2px solid #f1c40f;
+    padding-bottom: 5px;
+}
+
+
 nav ul li {
     display: inline-block;         /* располагаем пункты меню в строку */
     margin-right: 20px;
@@ -288,9 +295,15 @@ input:focus, textarea:focus, select:focus {
 }
 
 section {
+    transition: opacity 0.5s;
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
+section:hover {
+    opacity: 0.98;
+}
+
 
 .hero {
     background: linear-gradient(135deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 100%), url('https://via.placeholder.com/1920x600?text=Hero+Background');
