@@ -191,6 +191,19 @@ nav ul li:nth-child(even) a:hover {
     color: #2c3e50;
 }
 
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+}
+
+.popular-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+
 /* Карточки товаров/услуг */
 .product-card {
     display: flex;
