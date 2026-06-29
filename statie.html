@@ -30,71 +30,65 @@
 
     <main>
         <section>
-            <div>
-                <h2>Почему выбирают нас</h2>
-                <div>
-                    <div>
-                        <div></div>
-                        <h3>Качество</h3>
-                        <p>Гарантируем отличный результат и проверенные материалы.</p>
-                    </div>
-                    <div>
-                        <div></div>
-                        <h3>Быстрота</h3>
-                        <p>Оперативная работа и соблюдение сроков.</p>
-                    </div>
-                    <div>
-                        <div></div>
-                        <h3>Доступно</h3>
-                        <p>Цены, которые приятно удивят, без скрытых комиссий.</p>
-                    </div>
-                    <div>
-                        <div></div>
-                        <h3>Поддержка</h3>
-                        <p>Всегда на связи и помогаем с любым вопросом.</p>
-                    </div>
+            <h2>Переворачивающиеся карточки</h2>
+    <div class="card-grid">
+        <!-- Карточка 1 -->
+        <div class="flip-card" onclick="this.classList.toggle('flipped')">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <div class="flip-card-icon">📱</div>
+                    <h3>Смартфон</h3>
+                    <p>Нажмите или наведите</p>
+                </div>
+                <div class="flip-card-back">
+                    <h3>Смартфон Premium</h3>
+                    <p>6.7" OLED, 128 ГБ</p>
+                    <p>Цена: 34 999 ₽</p>
+                    <a href="#" class="flip-card-btn">Подробнее</a>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section>
-            <div>
-                <h2>Популярное в этом месяце</h2>
-                <div>
-                    <div>
-                        <div></div>
-                        <div>
-                            <h3>Название услуги/товара</h3>
-                            <p>Краткое описание — поменяйте текст под свою тему.</p>
-                            <div>от 1000 ₽</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div></div>
-                        <div>
-                            <h3>Другое предложение</h3>
-                            <p>Измените контент, фото и цену в соответствии с темой.</p>
-                            <div>1500 ₽</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div></div>
-                        <div>
-                            <h3>Специальный курс</h3>
-                            <p>Успейте забронировать место по акции.</p>
-                            <div>бесплатно</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div></div>
-                        <div>
-                            <h3>Набор опций</h3>
-                            <p>Комбо выгоднее, чем по отдельности.</p>
-                            <div>2500 ₽</div>
-                        </div>
-                    </div>
+        <!-- Карточка 2 -->
+        <div class="flip-card" onclick="this.classList.toggle('flipped')">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <div class="flip-card-icon">🎧</div>
+                    <h3>Наушники</h3>
+                    <p>Нажмите или наведите</p>
+                </div>
+                <div class="flip-card-back">
+                    <h3>Беспроводные наушники</h3>
+                    <p>Шумоподавление, 24 ч</p>
+                    <p>Цена: 8 999 ₽</p>
+                    <a href="#" class="flip-card-btn">Подробнее</a>
                 </div>
             </div>
+        </div>
+
+        <!-- Карточка 3 -->
+        <div class="flip-card" onclick="this.classList.toggle('flipped')">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <div class="flip-card-icon">⌚</div>
+                    <h3>Умные часы</h3>
+                    <p>Нажмите или наведите</p>
+                </div>
+                <div class="flip-card-back">
+                    <h3>Smart Watch Pro</h3>
+                    <p>GPS, мониторинг сна</p>
+                    <p>Цена: 18 999 ₽</p>
+                    <a href="#" class="flip-card-btn">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Дополнительная анимация — карточки появляются с задержкой
+        document.querySelectorAll('.flip-card').forEach((card, index) => {
+            card.style.animationDelay = `${index * 0.2}s`;
+        });
+    </script>
         </section>
     </main>
 
