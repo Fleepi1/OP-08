@@ -412,7 +412,7 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     background-color: #f4f4f4;
 }
 h3, h5 {
@@ -922,7 +922,7 @@ section:hover {
       top: 100%;
       left: 0;
       right: 0;
-      background: #2c3e50;
+      background: #000000;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
       display: none; /* скрываем по умолчанию */
       z-index: 99;
@@ -978,7 +978,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .slider-container {
@@ -1046,7 +1046,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .calculator-container {
@@ -1128,7 +1128,7 @@ button:hover {
 body {
     font-family: Arial, sans-serif;
     background: #f0f2f5;
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
     text-align: center;
 }
 
@@ -1257,7 +1257,7 @@ h2 {
 body {
     font-family: Arial, sans-serif;
     background: #f0f2f5;
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
     text-align: center;
 }
 
@@ -1297,4 +1297,8 @@ p {
 .gallery-item.show {
     opacity: 1;
     transform: translateY(0);
+}
+
+html, body, footer {
+    width: 100%!important;
 }
