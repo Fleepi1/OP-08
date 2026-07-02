@@ -1,9 +1,9 @@
 // Массив URL-адресов изображений – ВЫ ЗАМЕНЯЕТЕ НА СОХРАНЕННЫЕ ИХОБРАЖЕНИЯ В ПАПКЕ ПРОЕКТА img
 const images = [
-    'img/catt.jpg',
-    'img/cattt.jpg',
-    'img/girafe.jpg',
-    'img/cathp.jpg'
+    'img/1.png',
+    'img/2.png',
+    'img/3.png',
+    'img/4.png'
 ];
 
 // Находим элементы на странице
